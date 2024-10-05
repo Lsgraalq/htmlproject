@@ -318,6 +318,7 @@ body {
     padding: 15px 0;
     width: 240px;
   }
+
 }
 @media (max-width: 575.98px) {
   .up-header {
@@ -357,7 +358,7 @@ body {
   .header-textx::after  {
     content: " ";
     height: 3px;
-    width: 80px;
+    width: 60px;
     background: #21062a;
     color: #5a0d67;
     position: absolute;
@@ -416,4 +417,21 @@ body {
     text-align: center;
   }
 
+}
+
+@media (max-width: 401px) {
+  .col-xl-7{
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .header-textx::after  {
+    content: " ";
+    height: 3px;
+    width: 40px;
+    background: #21062a;
+    color: #5a0d67;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+  }
 }
