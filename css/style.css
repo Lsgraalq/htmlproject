@@ -427,11 +427,44 @@ body {
   .header-textx::after  {
     content: " ";
     height: 3px;
-    width: 40px;
+    width: 35px;
     background: #21062a;
     color: #5a0d67;
     position: absolute;
     left: 90%;
     top: 50%;
+  }
+  .texts p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: center;
+  }
+  .texts p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+  }
+  .texts h1{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+    padding-top: 4px;
+    text-align: center;
+
+  }
+  .texts h4{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    text-align: center;
+  }
+  .header-textx {
+    font-size: 26px;
   }
 }
